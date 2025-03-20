@@ -1,0 +1,25 @@
+# Stellar TOML file for EHP asset  
+VERSION = "2.0"
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+FEDERATION_SERVER = "https://yourdomain.com/federation"
+AUTH_SERVER = "https://yourdomain.com/auth"
+TRANSFER_SERVER = "https://yourdomain.com/transfer"
+
+[[CURRENCIES]]
+code = "EHP"
+issuer = "GAKDI5CTLJ7MJUK57YGPJWYIC2AFA2HJOGGTBMMYGPVSZT7FXR77J3NU"
+display_decimals = 2
+image = "https://github.com/Ehaberia/ehb-stellar/blob/main/ehb%20logo.jpg?raw=true"
+desc = "EHP is the official asset of Ehaberia Kingdom."
+conditions = "Limited supply issued by Ehaberia Kingdom."
+is_asset_anchored = false
+fixed_number = 10000000
+status = "live"
+anchor_asset_type = "crypto"
+
+[[VALIDATORS]]
+ALIAS = "Ehaberia Validator 1"
+DISPLAY_NAME = "Ehaberia Kingdom Network"
+PUBLIC_KEY = "YOUR_ISSUER_PUBLIC_KEY"
+HOST = "yourdomain.com"
