@@ -2,13 +2,13 @@
 VERSION = "2.0"
 
 NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
-FEDERATION_SERVER = "https://yourdomain.com/federation"
-AUTH_SERVER = "https://yourdomain.com/auth"
-TRANSFER_SERVER = "https://yourdomain.com/transfer"
+FEDERATION_SERVER = "https://ehaberia.github.io/ehb-stellar/federation"
+AUTH_SERVER = "https://ehaberia.github.io/ehb-stellar/auth"
+TRANSFER_SERVER = "https://ehaberia.github.io/ehb-stellar/transfer"
 
 [[CURRENCIES]]
 code = "EHP"
-issuer = "GAKDI5CTLJ7MJUK57YGPJWYIC2AFA2HJOGGTBMMYGPVSZT7FXR77J3NU"
+issuer = "GAKDI5CTLJ7MJUK57YGPJWYIC2AFA2HJOGGTBMMYGPVSZT7FXR77J3NU"  # Your issuer public key
 display_decimals = 2
 image = "https://github.com/Ehaberia/ehb-stellar/blob/main/ehb%20logo.jpg?raw=true"
 desc = "EHP is the official asset of Ehaberia Kingdom."
@@ -21,5 +21,5 @@ anchor_asset_type = "crypto"
 [[VALIDATORS]]
 ALIAS = "Ehaberia Validator 1"
 DISPLAY_NAME = "Ehaberia Kingdom Network"
-PUBLIC_KEY = "YOUR_ISSUER_PUBLIC_KEY"
-HOST = "yourdomain.com"
+PUBLIC_KEY = "GAKDI5CTLJ7MJUK57YGPJWYIC2AFA2HJOGGTBMMYGPVSZT7FXR77J3NU"  # Your issuer public key
+HOST = "ehaberia.github.io"
